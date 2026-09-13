@@ -1,0 +1,24 @@
+kits:
+  title: "&d&lBaka &b&lKITS"
+  # Fallback cooldown in minutes. Set to 0 to disable cooldowns.
+  cooldown-minutes: 30
+  per-kit-cooldowns:
+    1: 30
+    2: 30
+    3: 30
+    4: 30
+    5: 30
+    6: 30
+  icons:
+    1: LIGHT_GRAY_CANDLE
+    2: ORANGE_CANDLE
+    3: MAGENTA_CANDLE
+    4: LIGHT_BLUE_CANDLE
+    5: PINK_CANDLE
+    6: PURPLE_CANDLE
+  discord-link: ""
+
+messages:
+  prefix: "&8[&d&lBaka&b&lKits&8] &r"
+  player-only: "&cOnly players can use this command."
+  no-permission: "&cYou do not have permission."

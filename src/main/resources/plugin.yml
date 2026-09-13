@@ -1,0 +1,44 @@
+name: BakaKits
+version: 1.0.0
+main: dev.tyler.kits.BakaKitsPlugin
+description: Kits menu.
+author: Tyler
+api-version: '1.21.11'
+commands:
+  kit:
+    description: Opens kits.
+    usage: /kit
+  editkit:
+    description: Edits kits.
+    usage: /editkit <kit> inv
+  setdiscord:
+    description: Sets the Discord link.
+    usage: /setdiscord <link>
+permissions:
+  bakakits.use:
+    description: Use /kit.
+    default: true
+  bakakits.edit:
+    description: Edit kits.
+    default: op
+  bakakits.setdiscord:
+    description: Edit Discord link.
+    default: op
+  bakakits.claim.1:
+    description: Kit 1.
+    default: true
+  bakakits.claim.2:
+    description: Kit 2.
+    default: op
+  bakakits.claim.3:
+    description: Kit 3.
+    default: op
+  bakakits.claim.4:
+    description: Kit 4.
+    default: op
+  bakakits.claim.5:
+    description: Kit 5.
+    default: op
+  bakakits.claim.6:
+    description: Kit 6.
+    default: op
